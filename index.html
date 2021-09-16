@@ -1,0 +1,23 @@
+   <!DOCTYPE html>
+    <html lang="ja">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="main.css">
+        <title>ストップウォッチ</title>
+      </head>
+ 
+      <body>
+       <div class="content">
+        <h3>ストップウォッチ</h3>
+         <p id="timer">0:0:0:0</p>
+          <ul id="btn">
+           <li class="btn-item" id="start" onclick=eventStart();>スタート</li>
+           <li class="btn-item" id="stop" onclick=eventStop();>ストップ</li>
+           <li class="btn-item" id="reset" onclick=eventReset();>リセット</li>
+          </ul>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+      </body>
+    </html>

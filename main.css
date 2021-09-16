@@ -1,0 +1,38 @@
+.content{
+  border: solid 7px;
+  border-color: gray;
+  padding: 10px 0 40px 5px;
+  margin: 10px;
+  width: 365px;
+}
+
+h3{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 50px;
+  margin: 35px 20px;
+  letter-spacing: 5px;
+}
+
+#btn{
+  display: flex;
+}
+
+.btn-item{
+  background-color: lightgray;
+  padding: 15px;
+  border: solid 1px;
+  margin: 0 5px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.btn-item:hover{
+  filter: brightness(50%);
+  opacity: 0.5;
+  transition: 0.2s;
+}
